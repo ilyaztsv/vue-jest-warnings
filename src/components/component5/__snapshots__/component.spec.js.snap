@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent snapshot 1`] = `
+<div class="my-component">
+    <p>555</p>
+    <p>777</p>
+</div>
+`;

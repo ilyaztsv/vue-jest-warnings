@@ -1,0 +1,40 @@
+{
+  "name": "vue-jest-warnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=testing jest --no-cache --config ./jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaztsv/vue-jest-warnings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyaztsv/vue-jest-warnings/issues"
+  },
+  "homepage": "https://github.com/ilyaztsv/vue-jest-warnings#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.42",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.42",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-0": "^7.0.0-beta.42",
+    "@babel/runtime": "^7.0.0-beta.42",
+    "@vue/test-utils": "^1.0.0-beta.12",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.1",
+    "cross-env": "^5.0.1",
+    "jest": "^22.4.2",
+    "jest-serializer-vue": "^0.3.0",
+    "node-sass": "^4.8.3",
+    "vue": "^2.4.2",
+    "vue-jest": "^2.3.0",
+    "vue-loader": "^14.1.0",
+    "vue-template-compiler": "^2.5.16"
+  }
+}

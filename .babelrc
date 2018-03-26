@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ],
+    "@babel/preset-stage-0"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import"
+  ],
+  "env": {
+    "testing": {
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-stage-0"
+      ]
+    }
+  }
+}
